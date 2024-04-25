@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                git branch: 'feature-1', url: 'https://github.com/azharism/Petclinic.git'
+                git branch: 'feature-2', url: 'https://github.com/azharism/Petclinic.git'
             }
         }
         stage('compile') {
